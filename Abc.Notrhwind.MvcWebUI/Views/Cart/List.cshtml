@@ -1,0 +1,59 @@
+﻿
+@model Abc.Notrhwind.MvcWebUI.Models.CartSummaryViewModel
+@{
+	ViewData["Title"] = "List";
+	Layout = "~/Views/_Layout.cshtml";
+}
+
+<table class="table">
+	<tr>
+		<th>Product Name</th>
+		<th>Unit Price</th>
+		<th>Units in Stock</th>
+		<th>Quantity</th>
+		<th></th>
+	</tr>
+	@foreach (var item in Model.Cart.CartLines)
+	{
+		<tr>
+			<td>@item.Product.ProductName</td>
+			<td>@item.Product.UnitPrice</td>
+			<td>@item.Product.UnitsInStock</td>
+			<td>@item.Quantity</td>
+			<td class="text-right">
+
+				<a class="btn btn-xs btn-danger" asp-controller="Cart" 
+				   asp-action="Remove"
+				   asp-route-productId="@item.Product.ProductId"><span>Remove</span></a>
+			</td>
+		</tr>
+	}
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>Total</td>
+	<td class="text-right">@Model.Cart.Total</td>
+</tr>
+
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>
+		<a asp-controller="Product"
+		   asp-action="Index"
+		   class="btn btn-xs btn-primary">
+			<span>Continue Shopping</span>
+		</a>
+	</td>
+	<td>
+		<a asp-controller="Cart"
+		   asp-action="Complete"
+		   class="btn btn-xs btn-success">
+			<span>Go to checkout</span>
+		</a>
+	</td>
+</tr>
+
+</table>

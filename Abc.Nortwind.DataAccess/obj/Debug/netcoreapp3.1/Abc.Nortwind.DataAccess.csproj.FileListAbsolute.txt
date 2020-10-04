@@ -1,0 +1,17 @@
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Core.dll
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.csprojAssemblyReference.cache
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.AssemblyInfoInputs.cache
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.AssemblyInfo.cs
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Northwind.Entities.dll
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.deps.json
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.dll
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.pdb
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Core.pdb
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Northwind.Entities.pdb
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.csproj.CopyComplete
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.dll
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.pdb
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.runtimeconfig.json
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\bin\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.runtimeconfig.dev.json
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\99450\source\repos\Abc\Abc.Nortwind.DataAccess\obj\Debug\netcoreapp3.1\Abc.Nortwind.DataAccess.genruntimeconfig.cache

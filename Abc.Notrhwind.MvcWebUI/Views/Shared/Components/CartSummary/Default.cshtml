@@ -1,0 +1,17 @@
+﻿@model Abc.Notrhwind.MvcWebUI.Models.CartSummaryViewModel
+
+
+	@foreach (var item in Model.Cart.CartLines)
+	{
+		<li class="dropdown-item">
+			<a>@item.Product.ProductName <span class="badge badge-success">@item.Quantity</span></a>
+		</li>
+	}
+	<li role="separator" class="dropdown-divider"></li>
+	<li class="dropdown-item"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> </span>@Model.Cart.Total</li>
+	<li role="separator" class="dropdown-divider"></li>
+	<li class="dropdown-item">
+		<a class="btn btn-xs btn-success" asp-controller="Cart" asp-action="List">
+			Go to cart details
+		</a>
+	</li>

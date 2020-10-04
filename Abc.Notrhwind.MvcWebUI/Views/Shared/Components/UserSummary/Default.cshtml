@@ -1,0 +1,10 @@
+﻿
+@model Abc.Notrhwind.MvcWebUI.Models.UserDetailsViewModel
+
+
+@if (!string.IsNullOrEmpty(Model.UserName))
+{
+	<span>@Model.UserName</span>
+	<a class="btn btn-xs btn-outline-info" asp-controller="Account" asp-action="SignOut">Log out</a>
+}
+
